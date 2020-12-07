@@ -18,6 +18,7 @@ class App extends Component {
           <Link to="/memo">MemoDemo</Link>
           <Link to="/portal">PortalDemo</Link>
           <Link to="/test">类组件和函数式组件</Link>
+          <Link to="/list">用Hooks开发一个拖拽列表</Link>
         </nav>
         <div className="contents">{routes}</div>
       </div>

@@ -11,6 +11,7 @@ import ChildrenDemo from './demos/children/index2'
 import MemoDemo from './demos/memo'
 import PortalDemo from './demos/portal'
 import Test from './demos/test'
+import List from './demos/list'
 
 export default (
   <>
@@ -24,5 +25,6 @@ export default (
     <Route path="/memo" render={() => <MemoDemo />} />
     <Route path="/portal" render={() => <PortalDemo />} />
     <Route path="/test" render={() => <Test />} />
+    <Route path="/list" render={() => <List />} />
   </>
 )

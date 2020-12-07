@@ -11,7 +11,7 @@ export default () => {
 
   // const useUsers=()=>{
   //   const [users, setUsers] = useState(null)
-    
+
   // }
   // const users = useUsers()
   // if (users === null) {
@@ -37,7 +37,8 @@ export default () => {
 
   useEffect(() => {
     const I = setTimeout(() => {
-      setCount(x => x + 1)
+      console.log(count)
+      setCount(count => count + 1)
     }, 1000)
     // console.log('component update')
     return () => {
@@ -47,14 +48,13 @@ export default () => {
   }, [Math.min(count, 4)])
 
 
-
   return (
     <>
       <p>My Name is: {name}</p>
       <input type="text" value={name} onChange={e => setName(e.target.value)} />
       {count}
       <button onClick={() => setCount(x => x + 1)}>add</button>
-     
+
     </>
   )
 }
