@@ -1,0 +1,24 @@
+.header {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  position: relative;
+  width: 80%;
+  height: 2.44rem;
+  background-color: #46b8da;
+
+  h1 {
+    text-align: center;
+    line-height: 2.44rem;
+    font-size: 1.18rem;
+    color: #fff;
+  }
+
+  .icon {
+    position: absolute;
+    top: .12rem;
+    right: 2.15rem;
+    color: #fff;
+    font-size: 1.58rem;
+  }
+}
